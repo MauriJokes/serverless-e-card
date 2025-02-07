@@ -56,6 +56,7 @@ body {
   z-index: 2;
   padding: 16px;
   border: 4px solid #fff;
+  will-change: transform;
 }
 
 .page__1::after {
@@ -112,17 +113,6 @@ body {
 .page:hover .page__1::after {
   opacity: 1;
 }
-
-.page__1, .page__1::after {
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-}
-
-.page {
-  transform-style: preserve-3d;
-  -webkit-transform-style: preserve-3d;
-}
-
 
 #chead {
   font-size: 1.4rem;
@@ -190,6 +180,7 @@ body {
     z-index: 2;
     padding: 16px;
     border: 4px solid #fff;
+    will-change: transform;
   }
   .page__1::after {
     content: "";
@@ -242,13 +233,5 @@ body {
   .page:hover .page__1::after {
     opacity: 1;
   }
-  .page__1, .page__1::after {
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-  }
-  .page {
-    transform-style: preserve-3d;
-    -webkit-transform-style: preserve-3d;
-  }  
 }
 /*# sourceMappingURL=style.css.map */
