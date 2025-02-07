@@ -33,7 +33,7 @@ cardPicPaths = `{
 	},
 	"congratulations": {
 		"img":{
-			"1": "../res/congrats/1.png"
+			"1": "../res/congratulations/1.png"
 		},
 		"title":"Congratss"
 	}
