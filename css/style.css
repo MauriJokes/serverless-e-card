@@ -1,5 +1,12 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,100;1,200&display=swap");
+@font-face {
+  font-family: 'Fiolex Girls'; /* Name of the font */
+  src: url('../assets/Filxgirl.TTF') format('truetype'); /* Path to the font file */
+  font-weight: normal; /* Optional: You can define different weights */
+  font-style: normal; /* Optional: Define styles like italic */
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -49,6 +56,10 @@ body {
   top: 0;
   left: 0;
   opacity: 1;
+  background-size: cover;
+  background-image: url("../res/congratulations/1.png");
+  background-position: center;
+  background-repeat: no-repeat;
   -webkit-transition: all 1s 0.3s;
   transition: all 1s 0.3s;
   -webkit-transform-origin: 0 50%;
@@ -75,12 +86,15 @@ body {
   padding-top: 1.5rem;
   top: 0;
   left: 0;
-  background-color: #ffffff;
+  background-size: cover;
+  background-image: url("../res/congratulations/2.png");
+  background-position: center;
+  background-repeat: no-repeat;
   width: 100%;
-  height: 100%;
+  height: 94%;
   z-index: 1;
   opacity: 0;
-  padding: 16px;
+  /* padding: 16px; */
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
   -webkit-transition: all 0.3s 0.5s;
@@ -89,12 +103,16 @@ body {
 
 .page__2 {
   background-color: #8100eb;
-  color: #d9dcd6;
+  color: black;
   width: 100%;
   height: 100%;
   font-weight: 400;
   position: absolute;
   text-align: center;
+  background-size: cover;
+  background-image: url("../res/congratulations/3.png");
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 16px;
   top: 0;
   left: 0;
@@ -116,10 +134,13 @@ body {
 }
 
 #chead {
-  font-size: 1.4rem;
+  margin-top: 50px;
+  font-size: 1.5rem;
   text-align: center;
   font-weight: 600;
   line-height: 1px;
+  font-family: 'Fiolex Girls';
+  color: #a94243;
 }
 
 #uname {
@@ -129,6 +150,8 @@ body {
 }
 
 #utext {
+  font-family: 'Fiolex Girls';
+  color: #a94243;
   white-space: pre-wrap;
   white-space: -moz-pre-wrap;
   white-space: -pre-wrap;
@@ -138,10 +161,13 @@ body {
 
 @media only screen and (max-width: 500px) {
   #chead {
-    font-size: 1rem;
+    margin-top: 50px;
+    font-size: 1.5rem;
     text-align: center;
     font-weight: 600;
     line-height: 0.5px;
+    font-family: 'Fiolex Girls';
+    color: #a94243;
   }
   #uname {
     font-size: 1rem;
@@ -157,12 +183,14 @@ body {
     position: relative;
     color: #484e4a;
   }
+  
   .page {
     width: 100%;
     height: 200px;
     -webkit-perspective: 1500px;
             perspective: 1500px;
   }
+   
   .page__1 {
     background-color: #ffffff;
     color: black;
@@ -174,6 +202,10 @@ body {
     top: 0;
     left: 0;
     opacity: 1;
+    background-size: cover;
+    background-image: url("../res/congratulations/1.png");
+    background-position: center;
+    background-repeat: no-repeat;
     -webkit-transition: all 1s 0.3s;
     transition: all 1s 0.3s;
     -webkit-transform-origin: 0 50%;
@@ -184,7 +216,7 @@ body {
 
   }
   .page__1::after {
-    content: "";
+    /* content: ""; */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -201,11 +233,14 @@ body {
     top: 0;
     left: 0;
     background-color: #ffffff;
+    background-image: url("../res/congratulations/1.png"); 
+    background-size: cover;
+    background-position: center;
     width: 100%;
-    height: 100%;
+    height: 94%;
     z-index: 1;
     opacity: 0;
-    padding: 16px;
+    /* padding: 16px; */
     -webkit-transform: rotateY(180deg);
             transform: rotateY(180deg);
     -webkit-transition: all 0.3s 0.5s;
@@ -219,6 +254,10 @@ body {
     font-weight: 400;
     position: absolute;
     text-align: center;
+    background-size: cover;
+    background-image: url("../res/congratulations/3.png");
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 16px;
     top: 0;
     left: 0;
