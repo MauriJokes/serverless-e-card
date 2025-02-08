@@ -135,7 +135,7 @@ body {
 
 #chead {
   margin-top: 50px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-align: center;
   font-weight: 600;
   line-height: 1px;
@@ -150,6 +150,7 @@ body {
 }
 
 #utext {
+  font-size: 0.9rem;
   font-family: 'Fiolex Girls';
   color: #a94243;
   white-space: pre-wrap;

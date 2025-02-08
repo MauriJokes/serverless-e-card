@@ -3,6 +3,6 @@ cardPicPaths = `{
 		"img":{
 			"1": "../res/congratulations/1.png"
 		},
-		"title":"Congratulations Abang Amir and Ka Syahirah!"
+		"title":"Congratulations Abg Amir and Ka Syahirah!"
 	}
 }`;
